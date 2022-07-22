@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base_day4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base_hw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday4/hwday4_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday4/hwday4_13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +34,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="ArrStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day4.ArrStudy" />
-      <module name="java_base_day4" />
+}</component>
+  <component name="RunManager" selected="应用程序.hwday4_13">
+    <configuration name="hwday4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday4.hwday4_10" />
+      <module name="java_base_hw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.day4.*" />
+          <option name="PATTERN" value="hwday4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hwday4_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday4.hwday4_11" />
+      <module name="java_base_hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwday4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hwday4_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday4.hwday4_12" />
+      <module name="java_base_hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwday4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hwday4_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday4.hwday4_13" />
+      <module name="java_base_hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwday4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hwday4_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday4.hwday4_9" />
+      <module name="java_base_hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hwday4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ArrStudy" />
+        <item itemvalue="应用程序.hwday4_13" />
+        <item itemvalue="应用程序.hwday4_12" />
+        <item itemvalue="应用程序.hwday4_11" />
+        <item itemvalue="应用程序.hwday4_10" />
+        <item itemvalue="应用程序.hwday4_9" />
       </list>
     </recent_temporary>
   </component>
