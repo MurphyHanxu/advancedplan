@@ -12,6 +12,8 @@
         <module>java_base_hw</module>
         <module>java_base_day4</module>
         <module>java_base_day5</module>
+        <module>java_base_day7</module>
+        <module>java_base_day6</module>
     </modules>
 
     <properties>
