@@ -1,10 +1,13 @@
 package org.example.day6;
 
-import java.util.Random;
+import java.util.*;
 
 public class AccountManager {
     public static Account[] accounts = new Account[100];
-    public static int currentAccountIndex = 0;
+    public static final List<Account> accountList = new ArrayList<>();
+    public static final Map<String, Account> accountMap = new HashMap<>();
+
+//    public static int currentAccountIndex = 0;
     public static Account currentAccount = null;
 
     public static Account openAccount(String username, String password, String checkPassword) {
@@ -46,16 +49,17 @@ public class AccountManager {
 
     public static boolean loginAccount(String accountId, String password) {
         // TODO 登录逻辑
-        for (int i = 0; i < currentAccountIndex; i++) {
-            Account account = accounts[i];
-            if(account == null) {
-                continue;
-            }
-            if (account.accountId.equals(accountId) && account.password.equals(password)) {
-                currentAccount = account;
-                return true;
-            }
-        }
+        Account account = accountMap.get()
+//        for (int i = 0; i < currentAccountIndex; i++) {
+//            Account account = accounts[i];
+//            if(account == null) {
+//                continue;
+//            }
+//            if (account.accountId.equals(accountId) && account.password.equals(password)) {
+//                currentAccount = account;
+//                return true;
+//            }
+//        }
         return false;
     }
 

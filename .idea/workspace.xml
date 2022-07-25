@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="class note 6">
+    <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="homework 7">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base_day6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_day6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base_day7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_day8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -188,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658674648886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework 7">
+      <created>1658743239197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658743239197</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homework 7">
+      <created>1658743271179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658743271179</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +251,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class note 5" />
     <MESSAGE value="class note 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="class note 6" />
+    <MESSAGE value="homework 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_base_day8/src/main/java/org/example/day8/Case.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
