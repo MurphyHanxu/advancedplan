@@ -6,10 +6,24 @@ public class AccountManager {
     public static Account[] accounts = new Account[100];
     public static final List<Account> accountList = new ArrayList<>();
     public static final Map<String, Account> accountMap = new HashMap<>();
-
-//    public static int currentAccountIndex = 0;
+    //public static int currentAccountIndex = 0;
+    public static int currentAccountIndex = 1;
     public static Account currentAccount = null;
+    private void privateMethod(String str) {
+        System.out.println("private method" + str);
+    }
+    private static void privateStaticMethod(String str) {
+        System.out.println("private method" + str);
+    }
+    private static void privateStaticMethod(String str, String str2) {
+        System.out.println("private method" + str);
+    }
 
+    public void test() {
+        // 申明
+        List<Integer> list = new ArrayList<>();
+        Integer[] arr = new Integer[10];
+    }
     public static Account openAccount(String username, String password, String checkPassword) {
         if (!password.equals(checkPassword)) {
             System.out.println("两次输入的密码不一致");
@@ -19,8 +33,8 @@ public class AccountManager {
         account.username = username;
         account.password = password;
         account.accountId = getRandomAccountId();
-        accounts[currentAccountIndex] = account;
-        currentAccountIndex ++;
+
+        accountMap.put(account.accountId, account);
         return account;
     }
 
@@ -49,7 +63,7 @@ public class AccountManager {
 
     public static boolean loginAccount(String accountId, String password) {
         // TODO 登录逻辑
-        Account account = accountMap.get()
+        Account account = accountMap.get(accountId);
 //        for (int i = 0; i < currentAccountIndex; i++) {
 //            Account account = accounts[i];
 //            if(account == null) {
@@ -140,14 +154,12 @@ public class AccountManager {
     }
 
     private static Account getAccountByIdAndUsername(String accountId, String username) {
-        for (int i = 0; i < currentAccountIndex; i++) {
-            Account account = accounts[i];
-            if(account == null) {
-                continue;
-            }
-            if (account.accountId.equals(accountId) && account.username.equals(username)) {
-                return account;
-            }
+        Account account = accountMap.get(accountId);
+        if (account == null) {
+            return null;
+        }
+        if (!account.username.equals(username)) {
+            return null;
         }
         return null;
     }

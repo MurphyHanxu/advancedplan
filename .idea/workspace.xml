@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="homework 8">
+      <change afterPath="$PROJECT_DIR$/java_base_day10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_base_day9/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday8/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday8/Two_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +73,20 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.day10" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="hwday6" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.two_sum">
-    <configuration name="hwday6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hwday6.Main" />
+  <component name="RunManager" selected="应用程序.Contains_Duplicate">
+    <configuration name="Contains_Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday8.Contains_Duplicate" />
       <module name="java_base_hw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hwday6.*" />
+          <option name="PATTERN" value="hwday8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hwday8.two_sum" />
+    <configuration name="Two_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hwday8.Two_Sum" />
       <module name="java_base_hw" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.two_sum" />
+        <item itemvalue="应用程序.Contains_Duplicate" />
+        <item itemvalue="应用程序.Two_Sum" />
         <item itemvalue="JUnit.AccountManagerTest" />
         <item itemvalue="JUnit.AccountManagerTest.deposit" />
         <item itemvalue="JUnit.AccountManagerTest.openAccount" />
-        <item itemvalue="应用程序.hwday6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658743271179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homework 8">
+      <created>1658836266295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658836266295</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +263,8 @@
     <MESSAGE value="class note 5" />
     <MESSAGE value="class note 6" />
     <MESSAGE value="homework 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 7" />
+    <MESSAGE value="homework 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
