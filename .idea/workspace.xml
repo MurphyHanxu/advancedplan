@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="homework 8">
-      <change afterPath="$PROJECT_DIR$/java_base_day10/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base_day9/pom.xml" afterDir="false" />
+    <list default="true" id="4c440036-35b3-4733-b08a-d9c05552241d" name="变更" comment="class note 10">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_day6/src/main/java/org/example/day6/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday8/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base_hw/src/main/java/hwday8/Two_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/works/advancedplan/java_base_hw/src/main/java/hwday6&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/works/advancedplan/java_base_hw/src/main/java/hwday6",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\works\advancedplan\java_base_hw\src\main\java\hwday6" />
@@ -215,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658836266295</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="class note 10">
+      <created>1658977434339</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658977434339</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +267,8 @@
     <MESSAGE value="class note 6" />
     <MESSAGE value="homework 7" />
     <MESSAGE value="homework 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 8" />
+    <MESSAGE value="class note 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="class note 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

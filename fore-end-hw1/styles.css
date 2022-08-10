@@ -1,0 +1,155 @@
+/* 初始化 */
+html,
+body{
+  margin: 0;
+}
+
+.content{
+  background-color:rgb(193, 193, 193);
+  width: 650px;
+  height: 400px;
+  margin: 100px auto auto auto;
+  display: flex;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 /12%), 0 6px 16px 0 rgb(0 0 0 /8%),
+  0 9px 28px 8px rgb(0 0 0 /5%);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content-left{
+  background:linear-gradient(
+    to right bottom,
+    rgb(49, 70, 90) 0%,
+    rgb(58, 103, 134)100%
+  );
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.content-right{
+  background: #fff;
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.content-left h3{
+  color:#fff
+}
+
+.content-left-item{
+  color:#fff;
+  margin-top: 30px;
+
+}
+
+.content-left-item-title{
+  display: flex;
+  align-items: center;
+}
+
+.content-left-item-title span{
+  margin-left: 6px;
+}
+
+.content-left-item-desc{
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.login_title{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.login_tip{
+  color: #999;
+  font-size: 12px;
+  padding-bottom: 24px;
+}
+
+.form-bunch{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-bunch-item{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-bunch-item-label{
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0px 4px 0px 4px;
+  cursor: default;
+}
+
+.form-bunch-item-require{
+  color: red;
+}
+
+.form-bunch-item-control{
+  padding: 0px 4px 0px 4px;
+  text-align: left;
+}
+
+.ant-input{
+  outline: none;
+  background: rgb(228, 228, 228);
+  border: none!important;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  min-width: 0;
+  padding: 4px 11px;
+  position: relative;
+  transition: all .3s;
+  width: 100%;
+}
+
+.form-bunch-item-noTips{
+  padding: 5px;
+  width: 100%;
+}
+
+button{
+  width:100%;
+  border:none;
+  margin-top: 10px;
+}
+
+button:hover{
+  background: #fff;
+  cursor: pointer;
+}
+
+.atn-btn{
+  background: var(--background-lighter);
+  color: var(--text-primary);
+  border: none!important;
+  box-shadow: none!important;
+  background-image: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  box-shadow: 0 2px 0 rgba(0,0,0,.015);
+  color: rgba(0,0,0,.85);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 1.5715;
+  padding: 4px 15px 4px 15px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
