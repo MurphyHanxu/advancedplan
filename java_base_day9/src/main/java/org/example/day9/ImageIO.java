@@ -13,13 +13,6 @@ public class ImageIO {
         File orinalFile = new File(scrImagePath);//指定要读取的图片
         FileInputStream in = null;
         FileOutputStream out = null;
-        try{
-            File result = new File(outImagePath);
-            if (result.exists()){
-               result.delete();
-            }
-        }
-        if
     }
     //读入图片
 }
