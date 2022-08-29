@@ -13,6 +13,8 @@
  * eslint-plugin-prettier
  * @typescript-eslint/parser
  * @typescript-eslint/eslint-plugin
+ * ctrl + L :选中当前行
+ * Ctrl + alt + \ :eslint fix all auto-fixable problems
  * */
 module.exports = {
   env: {

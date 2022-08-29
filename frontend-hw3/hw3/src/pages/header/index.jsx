@@ -1,24 +1,30 @@
-import { Button, Drawer, Table, Popconfirm, Typography } from 'antd';
+import { Button, Drawer, Table, Popconfirm, Typography, message } from 'antd';
 import { useEffect, useState } from 'react';
-import { request } from '../../utils/request';
+import {
+  deleteImageFeatureConfig,
+  getImageFeatureConfig,
+  updateImageFeatureConfig,
+} from '../../service';
+import { useHeaderStore } from './headerStore';
 
 const { Paragraph } = Typography;
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
-  const [data, setData] = useState([]);
+  const data = useHeaderStore((s) => s.data);
+  const setData = useHeaderStore((s) => s.setData);
 
   const updateTable = () => {
-    return request
-      .post('/feature/get-image-feature-config', { imageVersion: 'test1' })
-      .then((res) => {
-        setData(res);
-      });
+    return getImageFeatureConfig({ imageVersion: 'test1' }).then((res) => {
+      setData(res);
+    });
   };
+
   useEffect(() => {
     if (visible) {
       updateTable();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [visible]);
 
   const columns = [
@@ -31,14 +37,13 @@ const Header = () => {
             onChange: (newValue) => {
               if (!newValue) return;
               if (newValue === row.featureName) return;
-              request
-                .post('/feature/update-image-feature-config', {
-                  ...row,
-                  featureName: newValue,
-                })
-                .then((res) => {
-                  updateTable();
-                });
+              updateImageFeatureConfig({
+                ...row,
+                featureName: newValue,
+              }).then((res) => {
+                message.success('修改成功');
+                updateTable();
+              });
             },
           }}
         >
@@ -64,13 +69,12 @@ const Header = () => {
           }
           okText="确定"
           onConfirm={() => {
-            request
-              .post('/feature/delete-image-feature-config', {
-                id: row.id,
-              })
-              .then((res) => {
-                updateTable();
-              });
+            deleteImageFeatureConfig({
+              id: row.id,
+            }).then((res) => {
+              message.success('删除成功');
+              updateTable();
+            });
           }}
           cancelText="取消"
         >
@@ -105,7 +109,7 @@ const Header = () => {
         }}
         visible={visible}
       >
-        <Table dataSource={data} columns={columns} />;
+        <Table rowKey="id" dataSource={data} columns={columns} />;
       </Drawer>
     </>
   );
