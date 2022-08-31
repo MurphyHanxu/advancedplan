@@ -70,10 +70,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-api: 设置函数调用api接口
-pages：页面布置
-utils：axios访问网站
-service：实现业务逻辑
 
+## Notes
+
+在当前文件夹hw3，`git bash here`
+
+启动本地服务：`npm start`
+
+react模块打包：`npm run build`
+
+
+
+在当前目录下安装包：`npm install <package_name>`
+
+上述命令执行之后将会在当前的目录下创建一个 `node_modules` 的目录（如果不存在的话），然后将下载的包保存到这个目录下。
+
+
+
+如需删除 node_modules 目录下面的包（package），请执行：`npm uninstall <package>`
+
+如需从 `package.json` 文件中删除依赖，需要在命令后添加参数 `--save`也就是：`npm uninstall --save <package>`
+
+注意：如果你将安装的包作为 "devDependency"（也就是通过 `--save-dev` 参数保存的），那么 `--save` 无法将其从 `package.json` 文件中删除。所以必须通过 `--save-dev` 参数可以将其卸载，也就是`npm uninstall --save-dev <package>`
+
+
+
+api: 设置函数调用api接口
+
+pages：页面布置
+
+utils：axios访问网站
+
+service：实现业务逻辑
 
 子级与子级之间的通信：zustand
